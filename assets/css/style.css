@@ -36,7 +36,34 @@ body {
   .logo {
     text-decoration: none;
   }
-  
+
   .logo i {
     font-size: 120%;
+  }
+
+  #nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    letter-spacing: 1px;
+  }
+  
+  #nav li {
+    margin-right: 10px;
+  }
+  
+  #nav a {
+    font-size: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: #fff7fa;
+  }
+  
+  #nav a:hover {
+    border-bottom: 1px solid #66ff00;
+    font-size: 1.25em;
+    color: #66ff00;
   }
