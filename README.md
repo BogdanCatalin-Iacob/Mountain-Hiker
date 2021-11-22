@@ -17,3 +17,14 @@
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added challenges or events.
         2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+-   ### Design
+    -   #### Colour Scheme
+        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Army Green": #515b3a , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa
+
+    -   #### Typography
+        -   The Spectral font is the main font used throughout the whole website with Helvetica as the fallback font in case for any reason the font isn't being imported into the site correctly.
+        -   All headings throughout the website use Lora font with Arial as the fallback in case for any reason the font isn't being imported into the site correctly.
+        
+    -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
