@@ -32,9 +32,13 @@
 ***
 ## Credits
 ### Code
+-   The code for hero-image animation was taken from [codeinstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
 
+    
 ### Content
-The quote on the hero image was taken from [thewanderlustwithin](https://www.thewanderlustwithin.com/mountain-quotes/)
+-   The quote on the hero image was taken from [thewanderlustwithin](https://www.thewanderlustwithin.com/mountain-quotes/)
+
+-   The benefits of hiking were taken from [trekfest](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
 
 ### Media
 
