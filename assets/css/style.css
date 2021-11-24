@@ -85,7 +85,26 @@ h4,
   width: 100%;
   background: url("../images/mountain-2-persons(2).jpg") no-repeat center center;
   background-size: cover;
-  z-index:0;
+
+  animation: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#hero-outer{
+  height: 70vh;
+  width:100%;
+  overflow: hidden;
+}
+
+
+@keyframes hero-zoom{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
 }
 
 .hero-quote{
