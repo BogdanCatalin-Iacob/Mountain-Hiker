@@ -20,7 +20,7 @@ h3,
 h4,
 .hero-quote{
   font-family: Lora, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #80ffec;
 }
 
@@ -115,8 +115,66 @@ h4,
 }
 
 .hero-quote em{
-  font-size: 3rem;
+  font-size: 4rem;
 }
+
+/*---------------------------------------------------- benefits ------*/
+#benefits-heading{
+  margin-top: 1em;
+  text-align: center;
+  font-size: 200%;
+
+}
+
+#hiking-benefits{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 70vh;
+  width: 100%
+}
+
+#left-about{
+  padding-top: 30px;
+  width: 33%
+}
+
+.left-about-heading{
+  line-height: 20px;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-bottom: 20px;
+}
+
+#right-about{
+  padding-top: 30px;
+  width: 33%
+}
+
+.right-about-heading{
+  line-height: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#center-about{
+  padding-top: 30px;
+  width: 33%
+}
+hr{
+  border-top: 2px solid #777777;
+}
+
+#circle-container{
+  width: 15em;
+  height: 15em;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  align-content: center;
+}
+
 
 /*---------------------------------------------------- Footer ------*/
 
