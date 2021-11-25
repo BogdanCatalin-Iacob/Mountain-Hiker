@@ -111,7 +111,7 @@ h4,
   font-size:2rem;
   position: relative;
   top: 20vh;
-  text-align:center;
+  text-align: center;
 }
 
 .hero-quote em{
@@ -120,59 +120,66 @@ h4,
 
 /*---------------------------------------------------- benefits ------*/
 #benefits-heading{
-  margin-top: 1em;
+  margin: 1em;
   text-align: center;
   font-size: 200%;
+}
 
+details summary { 
+  cursor: pointer;
 }
 
 #hiking-benefits{
-  display: flex;
-  justify-content: center;
+  display: flexbox;
+  flex-direction: column;
   align-content: center;
   height: 70vh;
-  width: 100%
+  width: 100%;
+  
 }
 
-#left-about{
-  padding-top: 30px;
-  width: 33%
+.benefit-heading{
+  width: 75%;
 }
 
-.left-about-heading{
-  line-height: 20px;
-  text-align: left;
-  margin-left: 0.5em;
-  margin-bottom: 20px;
+.single-benefit-container{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
 }
 
-#right-about{
-  padding-top: 30px;
-  width: 33%
+.single-benefit-reverse-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 1em;
 }
 
-.right-about-heading{
-  line-height: 20px;
-  text-align: right;
-  margin-bottom: 20px;
+.imagery-bg{
+  height: 100px;
+  width: 100px;
+  margin-right: 0.5em;
+  align-self: center;
 }
 
-#center-about{
-  padding-top: 30px;
-  width: 33%
-}
-hr{
-  border-top: 2px solid #777777;
+#brain-bg{
+  background: url("../images/mental-health-matters-your-mind-matters.gif") no-repeat center center;
+  background-size: contain;
 }
 
-#circle-container{
-  width: 15em;
-  height: 15em;
-  padding: 1em;
-  border: 1px solid #cccccc;
-  border-radius: 50%;
-  margin: 0 auto;
-  align-content: center;
+#bone-bg{
+  background: url("../images/strong-bone.png") no-repeat center center;
+  background-size: contain;
+}
+
+#muscle-bg{
+  background: url("../images/man-hike.webp") no-repeat center center;
+  background-size: cover;
+}
+
+#reduce-fat-bg{
+  background: url("../images/go-to-hell-weight-loss.gif") no-repeat center center;
+  background-size: contain;
 }
 
 
@@ -180,6 +187,7 @@ hr{
 
 footer {
   height: 150px;
+  width: 100%;
   border: 1px solid #000;
 }
 
