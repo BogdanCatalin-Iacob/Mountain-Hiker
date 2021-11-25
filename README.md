@@ -36,11 +36,15 @@
 
     
 ### Content
--   The quote on the hero image was taken from [thewanderlustwithin](https://www.thewanderlustwithin.com/mountain-quotes/)
+-   The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
 
--   The benefits of hiking were taken from [trekfest](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
+-   The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
 
 ### Media
+-   The .gif image associated to "Improves Brain Health" element was taken from [tenor.com](https://tenor.com/view/mental-health-matters-your-mind-matters-brain-take-care-of-yourself-love-yourself-gif-18568638)
+-   The .gif image associated to "Tone Muscles" element was taken from [gfycat.com](https://gfycat.com/consideraterealamericanredsquirrel)
+-   The .gif image associated to "Reduce Body Fat" element was taken from [tenor.com](https://tenor.com/view/go-to-hell-weight-loss-fat-becoming-fat-overweight-gif-14271805)
+-   The .gif image associated to "Strengthen Bones" element was taken from [besthealthphysio.ca](https://besthealthphysio.ca/services/osteoporosis/strong-bone/)
 
 
 ### Acknowledgements
