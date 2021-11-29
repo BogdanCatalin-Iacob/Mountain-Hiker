@@ -32,12 +32,12 @@
 ***
 ## Credits
 ### Code
--   The code for hero-image animation was taken from [codeinstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
+-   The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
+-   The code to style photo elements on Gallery.html page was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/?child=first)
 
     
 ### Content
 -   The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
-
 -   The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
 
 ### Media
@@ -45,7 +45,7 @@
 -   The .gif image associated to "Tone Muscles" element was taken from [gfycat.com](https://gfycat.com/consideraterealamericanredsquirrel)
 -   The .gif image associated to "Reduce Body Fat" element was taken from [tenor.com](https://tenor.com/view/go-to-hell-weight-loss-fat-becoming-fat-overweight-gif-14271805)
 -   The .gif image associated to "Strengthen Bones" element was taken from [besthealthphysio.ca](https://besthealthphysio.ca/services/osteoporosis/strong-bone/)
-
+-   The images found in Gallery.html are taken from my personal archive and they are shot during my travels
 
 ### Acknowledgements
 I'd like to thank my mentor Daisy McGirr for her guidance throughout my project.<br>
