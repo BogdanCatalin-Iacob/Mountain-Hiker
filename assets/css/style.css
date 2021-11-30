@@ -331,22 +331,45 @@ form{
  background-color: rgba(60, 60, 60, 0.6);
  width: 50%;
  position: absolute;
- left: 10%;
+ left: 20%;
  padding: 30px;
 }
 
+.form-container{
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  background-image: url("../images/13.webp");
+}
+
+form label{
+  color: aliceblue;
+}
+
 .text-input{
-  width:100%;
-  height:25px;
-  margin:5 0 20;
+  width: 100%;
+  height: 25px;
+  padding: 0 15px;
+  margin: 5 0 20;
   border: 1px solid #000;
-  border-radius: 50px;
-  font-size: 1.2rem;
+  border-radius: 10px;
+ 
 }
 
 .text-input:hover{
   border-color: chartreuse;
 }
+
+.message{
+  width: 100%;
+  height: 75px;
+  padding: 0 15px;
+  margin: 5 0 20;
+  border: 1px solid #000;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
 
 
 
