@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4,
-.hero-quote{
+.hero-quote {
   font-family: Lora, Arial, sans-serif;
   font-weight: 600;
   color: #80ffec;
@@ -34,7 +34,7 @@ h4,
   letter-spacing: 1px;
 }
 
-.header-container p{
+.header-container p {
   font-family: Lora, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -80,10 +80,10 @@ h4,
 
 /*---------------------------------------------------- hero-image ------*/
 
-#hero-image{
+#hero-image {
   height: 70vh;
   width: 100%;
-  background: url("../images/mountain-2-persons(2).jpg") no-repeat center center;
+  background: url("../images/mountain-2-persons-web.jpg") no-repeat center center;
   background-size: cover;
 
   animation: hero-zoom;
@@ -91,45 +91,46 @@ h4,
   animation-fill-mode: forwards;
 }
 
-#hero-outer{
+#hero-outer {
   height: 70vh;
-  width:100%;
+  width: 100%;
   overflow: hidden;
 }
 
 
-@keyframes hero-zoom{
-  from{
+@keyframes hero-zoom {
+  from {
     transform: scale(1);
   }
-  to{
+
+  to {
     transform: scale(1.1);
   }
 }
 
-.hero-quote{
-  font-size:2rem;
+.hero-quote {
+  font-size: 2rem;
   position: relative;
   top: 20vh;
   text-align: center;
 }
 
-.hero-quote em{
+.hero-quote em {
   font-size: 4rem;
 }
 
 /*---------------------------------------------------- benefits ------*/
-#benefits-heading{
+#benefits-heading {
   margin-top: 2em;
   text-align: center;
   font-size: 200%;
 }
 
-details summary { 
+details summary {
   cursor: pointer;
 }
 
-#hiking-benefits{
+#hiking-benefits {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -137,53 +138,53 @@ details summary {
   width: 100%;
 }
 
-.benefit-heading{
+.benefit-heading {
   width: 50%;
 }
 
-.single-benefit-container{
+.single-benefit-container {
   display: flex;
   justify-content: center;
   margin: 1em;
 }
 
-.single-benefit-reverse-container{
+.single-benefit-reverse-container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   margin: 1em;
 }
 
-.imagery-bg{
+.imagery-bg {
   height: 100px;
   width: 100px;
   margin-right: 0.5em;
   align-self: center;
 }
 
-#brain-bg{
+#brain-bg {
   background: url("../images/mental-health-matters-your-mind-matters.gif") no-repeat center center;
   background-size: contain;
 }
 
-#bone-bg{
+#bone-bg {
   background: url("../images/strong-bone.png") no-repeat center center;
   background-size: contain;
 }
 
-#muscle-bg{
+#muscle-bg {
   background: url("../images/man-hike.webp") no-repeat center center;
   background-size: cover;
 }
 
-#reduce-fat-bg{
+#reduce-fat-bg {
   background: url("../images/go-to-hell-weight-loss.gif") no-repeat center center;
   background-size: contain;
 }
 
 /*---------------------------------------------------- Quotes ------*/
 
-.quotes-container{
+.quotes-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -191,34 +192,34 @@ details summary {
   width: 100%;
 }
 
-#quotes-heading{
+#quotes-heading {
   margin-top: 2em;
   text-align: center;
   font-size: 200%;
 }
 
-.quote{
+.quote {
   display: flex;
   justify-content: center;
   margin: 1em;
 }
 
-.quote p::before{
+.quote p::before {
   content: open-quote;
 }
 
-.quote p{
-  width:250px;
+.quote p {
+  width: 10em;
   padding: 1em;
   margin-right: 1em;
 }
 
-.quote p::after{
+.quote p::after {
   content: close-quote;
 }
- 
 
-.circle{
+
+.circle {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -229,7 +230,7 @@ details summary {
 /*---------------------------------------------------- Footer ------*/
 
 footer {
-  height: 150px;
+  height: 25%;
   width: 100%;
   border: 1px solid #000;
 }
@@ -277,48 +278,164 @@ footer a{
   color: #000;
 }
 
-#contact-form a:hover{
+#contact-form-link a:hover {
   color: #66ff00;
   border-bottom: 0.5px solid #66ff00;
 }
 
 /*---------------------------------------------------- Social Media icons ------*/
 
-.fa-facebook{
-  color:  #3b5998;
+.fa-facebook {
+  color: #3b5998;
   margin: 2px;
 }
 
-.fa-instagram{
-  color:  #fb3958;
+.fa-instagram {
+  color: #fb3958;
   margin: 2px;
 }
 
-.fa-twitter{
-  color:  #058cc2;
+.fa-twitter {
+  color: #058cc2;
   margin: 2px;
 }
 
-.fa-youtube{
-  color:  #c4302b;
+.fa-youtube {
+  color: #c4302b;
   margin: 2px;
 }
 
-.fa-snapchat{
-  color:  #ce3e1a;
+.fa-snapchat {
+  color: #ce3e1a;
   margin: 2px;
 }
 
 
-/*---------------------------------------------------- Gallery ------*/
+/*---------------------------------------------------- Gallery page ------*/
 
 #photos{
   clear: both;
   line-height: 0;
-  column-count: 4;
+  column-count: 3;
   column-gap: 0;
 }
 
- #photos img{
+#photos img {
   width: 100%;
+}
+
+/*---------------------------------------------------- Contact page ------*/
+
+form{
+ margin-top: 150px;
+ background-color: rgba(60, 60, 60, 0.6);
+ width: 50%;
+ position: absolute;
+ left: 10%;
+ padding: 30px;
+}
+
+.text-input{
+  width:100%;
+  height:25px;
+  margin:5 0 20;
+  border: 1px solid #000;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+
+.text-input:hover{
+  border-color: chartreuse;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .hero-quote{
+    font-size: 1.5rem;
+  }
+
+  .hero-quote em {
+    font-size: 3rem;
+  }
+
+  .quote:nth-child(3){
+    display: none;
+  }
+
+  /*---------------------------------------------------- Gallery ------*/
+
+  #photos{
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+
+  /*---------------------------------------------------- Hero-image ------*/
+
+  .hero-quote{
+    font-size: 1rem;
+  }
+
+  .hero-quote em {
+    font-size: 2rem;
+  }
+
+  .circle{
+    display: none;
+  }
+
+  /*---------------------------------------------------- Quotes ------*/
+
+  #quotes-heading{
+    margin-top: 1em;
+  }
+
+  .quote p{
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+
+  .quote:nth-child(3){
+    display: none;
+  }
+
+  /*---------------------------------------------------- Benefits ------*/
+
+  #benefits-heading{
+    margin-top: 1em;
+  }
+
+  .imagery-bg {
+    height: 50px;
+    width: 50px;
+  }
+
+  /*---------------------------------------------------- Footer ------*/
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .find-us p{
+    display: none;
+  }
+
+  /*---------------------------------------------------- Gallery ------*/
+
+  #photos{
+    column-count: 1;
+  }
 }
