@@ -18,7 +18,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Army Green": #515b3a , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa
+        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa
 
     -   #### Typography
         -   The Spectral font is the main font used throughout the whole website with Helvetica as the fallback font in case for any reason the font isn't being imported into the site correctly.
@@ -34,6 +34,7 @@
 ### Code
 -   The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
 -   The code to style photo elements on Gallery.html page was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/?child=first)
+-   The code for gradient background animation was taken from [gradient-animator](https://www.gradient-animator.com/)
 
     
 ### Content
