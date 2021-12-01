@@ -21,7 +21,7 @@ h4,
 .hero-quote {
   font-family: Lora, Arial, sans-serif;
   font-weight: 600;
-  color: #80ffec;
+  color: #fffafa;
 }
 
 /*---------------------------------------------------- Header ------*/
@@ -40,7 +40,7 @@ h4,
   font-size: 1.5rem;
   margin-top: 0.5em;
   margin-left: 0.5em;
-  color: #80ffec;
+  color: #fffafa;
 }
 
 .logo {
@@ -69,7 +69,7 @@ h4,
   list-style-type: none;
   text-decoration: none;
   text-align: center;
-  color: #fff7fa;
+  color: #fffafa;
 }
 
 #nav a:hover {
@@ -232,48 +232,47 @@ details summary {
 footer {
   height: 25%;
   width: 100%;
-  border: 1px solid #000;
 }
 
-footer h2{
+footer h2 {
   text-align: center;
 }
 
-footer h3{
+footer h3 {
   margin: 0.5em;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: space-around;
 }
 
-.find-us{
+.find-us {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
-footer ul{
+footer ul {
   text-align: end;
 }
 
-footer li{
+footer li {
   display: inline;
 }
 
-footer i{
+footer i {
   font-size: 2.5rem;
   transition: transform 1s;
 }
 
-footer i:hover{
+footer i:hover {
   color: #66ff00;
   transform: rotate(20deg);
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #000;
 }
@@ -313,7 +312,7 @@ footer a{
 
 /*---------------------------------------------------- Gallery page ------*/
 
-#photos{
+#photos {
   clear: both;
   line-height: 0;
   column-count: 3;
@@ -326,60 +325,80 @@ footer a{
 
 /*---------------------------------------------------- Contact page ------*/
 
-form{
- margin-top: 150px;
- background-color: rgba(60, 60, 60, 0.6);
- width: 50%;
- position: absolute;
- left: 20%;
- padding: 30px;
+form {
+  background-color: rgba(60, 60, 60, 0.6);
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 30px;
+  margin:auto;
+  transform: translate(-50%, -50%);
 }
 
-.form-container{
+.form-container {
   width: 100%;
-  height: 75vh;
-  position: relative;
+  height: 80vh;
   background-image: url("../images/13.webp");
 }
 
-form label{
-  color: aliceblue;
+form label {
+  color: #fffafa;
 }
 
-.text-input{
+.text-input {
   width: 100%;
   height: 25px;
-  padding: 0 15px;
+  padding: 0;
   margin: 5 0 20;
   border: 1px solid #000;
   border-radius: 10px;
- 
+
 }
 
-.text-input:hover{
-  border-color: chartreuse;
+.text-input:hover {
+  border-color: #66ff00;
 }
 
-.message{
+.message {
   width: 100%;
   height: 75px;
-  padding: 0 15px;
+  padding: 0;
   margin: 5 0 20;
   border: 1px solid #000;
   border-radius: 10px;
   font-size: 1rem;
 }
 
+#message:hover {
+  border-color: #66ff00;
+}
 
+input[type=submit] {
+  display: block;
+  background-color: #e4572e;
+  color: #fffafa;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
 
+input[type=submit]:hover{
+  background-color: #66ff00;
+  color: #000;
+  cursor: pointer;
+}
 
+/*---------------------------------------------------- Media queries ------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   html {
     font-size: 14px;
   }
 
-  .hero-quote{
+  .hero-quote {
     font-size: 1.5rem;
   }
 
@@ -387,25 +406,33 @@ form label{
     font-size: 3rem;
   }
 
-  .quote:nth-child(3){
+  .quote:nth-child(3) {
     display: none;
   }
 
-  /*---------------------------------------------------- Gallery ------*/
+  input[type=submit] {
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 1.5rem;
+  }
 
-  #photos{
+  /*---------------------------------------------------- Gallery media query ------*/
+
+  #photos {
     column-count: 2;
   }
 }
+
+
 
 @media screen and (max-width: 425px) {
   html {
     font-size: 12px;
   }
 
-  /*---------------------------------------------------- Hero-image ------*/
+  /*---------------------------------------------------- Hero-image media query------*/
 
-  .hero-quote{
+  .hero-quote {
     font-size: 1rem;
   }
 
@@ -413,29 +440,29 @@ form label{
     font-size: 2rem;
   }
 
-  .circle{
+  .circle {
     display: none;
   }
 
-  /*---------------------------------------------------- Quotes ------*/
+  /*---------------------------------------------------- Quotes  media query ------*/
 
-  #quotes-heading{
+  #quotes-heading {
     margin-top: 1em;
   }
 
-  .quote p{
+  .quote p {
     display: block;
     width: 100%;
     padding: 0;
   }
 
-  .quote:nth-child(3){
+  .quote:nth-child(3) {
     display: none;
   }
 
-  /*---------------------------------------------------- Benefits ------*/
+  /*---------------------------------------------------- Benefits media query ------*/
 
-  #benefits-heading{
+  #benefits-heading {
     margin-top: 1em;
   }
 
@@ -444,7 +471,7 @@ form label{
     width: 50px;
   }
 
-  /*---------------------------------------------------- Footer ------*/
+  /*---------------------------------------------------- Footer  media query ------*/
 
   .contact {
     display: flex;
@@ -452,13 +479,25 @@ form label{
     align-items: center;
   }
 
-  .find-us p{
+  .find-us p {
     display: none;
   }
 
-  /*---------------------------------------------------- Gallery ------*/
+  /*---------------------------------------------------- Gallery  media query ------*/
 
-  #photos{
+  #photos {
     column-count: 1;
+  }
+
+  /*---------------------------------------------------- contact media query ------*/
+
+  .form-container h2{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  form{
+    top: 47%;
   }
 }
