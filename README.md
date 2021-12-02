@@ -169,6 +169,7 @@ Programs Used section, the contact forms will not store data or send email reque
     -   The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
     -   The code to style photo elements on Gallery.html page was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/?child=first)
     -   The code for gradient background animation was taken from [gradient-animator](https://www.gradient-animator.com/)
+    -   The code for mobile nav menu was taken from [codepen](https://codepen.io/shieldsma91/pen/zLpbLX)
 
     
 ### Content
