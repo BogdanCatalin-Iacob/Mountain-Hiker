@@ -9,7 +9,7 @@
 }
 
 body {
-  /* background-color: #00c201; */
+  /* replace this background-color: #00c201; with a gradient background*/
   font-family: Spectral, Helvetica, sans-serif;
   color: #000;
   background: linear-gradient(277deg, #e4572e, #7ee8fa, #00c201);
@@ -313,7 +313,7 @@ details summary {
 /*---------------------------------------------------- Footer ------*/
 
 footer {
-  height: 25%;
+  /* height: 25%; */
   width: 100%;
   background-color: #00c201;
 }
@@ -475,6 +475,40 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+/*----------------------------------------------------- Events page------*/
+
+.event-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#events-heading h2{
+  margin: 1.2em;
+}
+#event-details{
+  width:30%;
+}
+#event-details p:nth-child(3){
+  margin-top: 10px;
+}
+
+#booking-image{
+  position: relative;
+}
+
+.event-container img{
+  width:30vw;
+  box-shadow: 5px 5px 25px rgba(60, 60, 60, 0.6);
+  border-radius: 10px;
+  right: 0;
+  margin: 20px;
+}
+
+
+
 /*---------------------------------------------------- Media queries ------*/
 
 @media screen and (max-width: 1023px) {
@@ -500,21 +534,21 @@ input[type=submit]:hover {
     font-size: 1.5rem;
   }
 
-  /*---------------------------------------------------- Gallery media query ------*/
+  /*------------------------- Gallery media query ------*/
 
   #photos {
     column-count: 2;
   }
 }
 
-
+/*---------------------------------------------------------- Mobile screen size------*/
 
 @media screen and (max-width: 425px) {
   html {
     font-size: 12px;
   }
 
-  /*---------------------------------------------------- Hero-image media query------*/
+  /*------------------------ Hero-image media query------*/
 
   .hero-quote {
     font-size: 1rem;
@@ -528,7 +562,7 @@ input[type=submit]:hover {
     display: none;
   }
 
-  /*---------------------------------------------------- Quotes  media query ------*/
+  /*------------------------- Quotes  media query ------*/
 
   #quotes-heading {
     margin-top: 1em;
@@ -544,7 +578,7 @@ input[type=submit]:hover {
     display: none;
   }
 
-  /*---------------------------------------------------- Benefits media query ------*/
+  /*----------------------- Benefits media query ------*/
 
   #benefits-heading {
     margin-top: 1em;
@@ -555,7 +589,7 @@ input[type=submit]:hover {
     width: 50px;
   }
 
-  /*---------------------------------------------------- Footer  media query ------*/
+  /*---------------------- Footer  media query ------*/
 
   .contact {
     display: flex;
@@ -567,13 +601,13 @@ input[type=submit]:hover {
     display: none;
   }
 
-  /*---------------------------------------------------- Gallery  media query ------*/
+  /*----------------------- Gallery  media query ------*/
 
   #photos {
     column-count: 1;
   }
 
-  /*---------------------------------------------------- contact media query ------*/
+  /*----------------------- contact media query ------*/
 
   form{
     width: 80%;
@@ -583,7 +617,7 @@ input[type=submit]:hover {
   }
 
 
-  /*---------------------------------------------------- Mobile nav menu ------*/
+  /*----------------------- Mobile nav menu ------*/
   #menu-toggle {
     display: flex;
     flex-direction: column;
