@@ -575,6 +575,9 @@ input[type=submit]:hover {
 
   /*---------------------------------------------------- contact media query ------*/
 
+  form{
+    width: 80%;
+  }
   .form-container h2 {
     font-size: 1.2rem;
   }
