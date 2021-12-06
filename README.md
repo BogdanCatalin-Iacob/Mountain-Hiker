@@ -11,9 +11,9 @@
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
-    * [Differences to Design](Differences-to-Design)
+    * [Limitations](#Limitations)
 * [Limitations](#Limitations)
-- [Features](#Features)
+* [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
 * [Technologies](#Technologies)
@@ -21,7 +21,6 @@
     * [Test Strategy](#Test-Strategy)
       * [Summary](#Summary)
       * [High Level Test Cases](#High-Level-Test-Cases)
-      * [Out of Scope](#Out-of-Scope)
     * [Test Results](#Test-Results)
     * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
@@ -29,13 +28,14 @@
     * [GitHub Pages](#Using-Github-Pages)
     * [Locally](Run-Locally)
 * [Credits](#Credits)
-  * [Content](#Content)
-  * [Media](#Media)
-  * [Acknowledgements](#Acknowledgements)
-  * [Comments](#Comments)
+    * [Code](#Code)
+    * [Content](#Content)
+    * [Media](#Media)
+    * [Acknowledgements](#Acknowledgements)
+    * [Comments](#Comments)
 
 
-  ## Purpose
+## Purpose
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
 It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
@@ -62,7 +62,7 @@ The live website can be found [here]().
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Structure
-All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily.
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to allow users to Navigate the site easily.
 The Nav Menu will be collapsable on a Mobile device to make use of space on smaller devices.
 The purpose of this is to fulfill user story:
 > As a First Time user, I want to be able to easily navigate throughout the site to find content.
@@ -97,7 +97,7 @@ The purpose of this Page is to fulfill user stories:
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa
+        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa with shades of "White": #fff and "Black": #000. 
 
     -   #### Typography
         -   The Spectral font is the main font used throughout the whole website with Helvetica as the fallback font in case for any reason the font isn't being imported into the site correctly.
@@ -106,7 +106,7 @@ The purpose of this Page is to fulfill user stories:
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
-        #### Wireframes
+    -   #### Wireframes
 Home Page<br>
 ![Home Page Wireframe]()<br>
 Gallery Page<br>
@@ -115,18 +115,19 @@ Contact Page<br>
 ![Contact Page Wireframe]()<br>
 
 -   ### Limitations
-Due to no JavaScript functionality, apart from Bootstraps(JS/JQuery) used for the Modal Form as outlined in the Frameworks Libraries and 
-Programs Used section, the contact forms will not store data or send email requests.
+Due to no JavaScript functionality the contact forms and modal forms will not store data or send email requests.
 ***
 ## Features
  
 -   ### Existing Features
-    - Let's Walk button on the index.html page opens up the booking modal form .
+    - FIND AN EVENT button on the index.html page opens up the events.html page.
+    - Modal form pop-up when Event is selected on events.html
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
 
-### Features Left to Implement
-- Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
-- In order to implement the use of the proposed forum, signup and logins would have to be added.
+-   ### Features Left to Implement
+    - Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
+    - In order to implement the use of the proposed forum, signup and logins would have to be added.
+
 ***
 
 ## Technologies
@@ -135,9 +136,6 @@ Programs Used section, the contact forms will not store data or send email reque
 	* This project uses HTML as the main language used to complete the structure of the Website.
 * CSS
 	* This project uses custom written CSS to style the Website.
-* [Bootstrap](https://getbootstrap.com/)
-	* The Bootstrap framework is used throughout this website for layouts and styling. The car
-	* This has also been used to import JavaScript/Query used for the pop up Event booking modal
 * [Font Awesome](https://fontawesome.com/)
 	* Font awesome Icons are used for the Social media links contained in the Footer section of the website and for the benefits found on the index.html page.
 * [Google Fonts](https://fonts.google.com/)
@@ -162,29 +160,105 @@ Programs Used section, the contact forms will not store data or send email reque
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README.
 ***
 
+## Testing
+
+-   ### Test Strategy 
+
+    -   #### Summary 
+
+        - Testing is required on MilestoneProject-1 – Mountain Hiker Responsive Website.
+
+        - As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
+
+        - No elements should overlap another container div. All elements should remain on the screen at all sizes above 475px.
+
+        - All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
+
+        - All links to external websites must open in a new browser.
+
+        - Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required. 
+
+        - Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
+        - The live Project can be found [here]().</br>
+
+    -   #### High Level Test Cases 
+--->![Test Cases]()
+
+
+    -   ### Test Results
+--->![Results]()<br>
+--->Testing results can be found [here]()<br>
+Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.<br>
+    - All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+    - CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+    - Website was tested by running locally and tested on the deployed version. No differences found.
+
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure organisation information was displayed on the Home Page.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
+* As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
+* As a First Time user, I want to find ways to follow the organisation on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+
+* As a Returning user, I want to enroll online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal was functioning on the Events page.
+* As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
+
+* As a Frequent user, I want to check to see if there are any new upcoming events. - Testing was done to ensure upcoming events were displayed on the Events Page.
+* As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities. - Testing was performed to ensure a gallery had been added with photos from the organisation activities.
+* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the organisation newsletter.
+
+    - ### Issues and Resolutions to issues found during testing
+
+
+***
+## Deployment
+
+-   ### Project Creation
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input mountain-hiker and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/BogdanCatalin-Iacob/mountain-hiker). I then clicked the Gitpod button  to open the project in Gitpod.
+
+ The following commands were used throughout the project:
+
+* git add filename - This command was used to add fils to the staging area before commiting.
+* git commit -m *commit message explaining the updates* - This command was used to to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub repository. 
+
+-   ### Using Github Pages
+1. Navigate to the GitHub [Repository:](https://github.com/BogdanCatalin-Iacob/mountain-hiker)
+1. Click the 'Settings' Tab.
+1. Scroll Down to the Git Hub Pages Heading.
+1. Select 'Master Branch' as the source.
+1. Click the Save button.
+1. Click on the link to go to the live deployed page.
+
+-   ### Run Locally
+1. Navigate to the GitHub [Repository:](https://github.com/BogdanCatalin-Iacob/mountain-hiker)
+1. Click the Code drop down menu.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+1. Use the 'git clone' command in terminal followed by the copied git URL.
+1. A clone of the project will be created locally on your machine.
 
 ***
 ## Credits
 -   ### Code
-    -   The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
+        - The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
     -   The code to style photo elements on Gallery.html page was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/?child=first)
     -   The code for gradient background animation was taken from [gradient-animator](https://www.gradient-animator.com/)
     -   The code for mobile nav menu was taken from [codepen](https://codepen.io/shieldsma91/pen/zLpbLX)
     -   The code for modal on events.html was taken from [codepen](https://codepen.io/timothylong/pen/HhAer)
 
     
-### Content
--   The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
--   The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
--   The Ciucas Mountain description found on events.html was taken from [uncover-romania.com](https://www.uncover-romania.com/attractions/nature/ciucas-mountains/)
+-   ### Content
+    - The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
+    - The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
+    - The Ciucas Mountain description found on events.html was taken from [uncover-romania.com](https://www.uncover-romania.com/attractions/nature/ciucas-mountains/)
 
-### Media
--   The .gif image associated to "Improves Brain Health" element was taken from [tenor.com](https://tenor.com/view/mental-health-matters-your-mind-matters-brain-take-care-of-yourself-love-yourself-gif-18568638)
--   The .gif image associated to "Tone Muscles" element was taken from [gfycat.com](https://gfycat.com/consideraterealamericanredsquirrel)
--   The .gif image associated to "Reduce Body Fat" element was taken from [tenor.com](https://tenor.com/view/go-to-hell-weight-loss-fat-becoming-fat-overweight-gif-14271805)
--   The .gif image associated to "Strengthen Bones" element was taken from [besthealthphysio.ca](https://besthealthphysio.ca/services/osteoporosis/strong-bone/)
--   The images found in Gallery.html are taken from my personal archive and they are shot during my travels
--   The image found on events.html is taken from my personal archive and it is shot during my travels
+-   ### Media
+    - The .gif image associated to "Improves Brain Health" element was taken from [tenor.com](https://tenor.com/view/mental-health-matters-your-mind-matters-brain-take-care-of-yourself-love-yourself-gif-18568638)
+    - The .gif image associated to "Tone Muscles" element was taken from [gfycat.com](https://gfycat.com/consideraterealamericanredsquirrel)
+    - The .gif image associated to "Reduce Body Fat" element was taken from [tenor.com](https://tenor.com/view/go-to-hell-weight-loss-fat-becoming-fat-overweight-gif-14271805)
+    - The .gif image associated to "Strengthen Bones" element was taken from [besthealthphysio.ca](https://besthealthphysio.ca/services/osteoporosis/strong-bone/)
+    - The images found in Gallery.html are taken from my personal archive and they are shot during my travels
+    - The image found on events.html is taken from my personal archive and it is shot during my travels
 
-### Acknowledgements
-I'd like to thank my mentor Daisy McGirr for her guidance throughout my project.<br>
+-   ### Acknowledgements
+    - I'd like to thank my mentor Daisy McGirr for her guidance throughout my project.<br>
