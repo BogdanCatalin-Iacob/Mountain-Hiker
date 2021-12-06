@@ -439,6 +439,13 @@ footer a {
   width: 100%;
 }
 
+section h2{
+  margin: 1.2em;
+  text-align: center;
+
+}
+
+
 /*---------------------------------------------------- Contact page ------*/
 
 form {
@@ -521,6 +528,7 @@ input[type=submit]:hover {
 
 #events-heading h2 {
   margin: 1.2em;
+  text-align: center;
 }
 
 #event-details {
