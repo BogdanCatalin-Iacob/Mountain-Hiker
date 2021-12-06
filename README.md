@@ -251,6 +251,8 @@ The project was started by navigating to the [template](https://github.com/Code-
     - The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
     - The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
     - The Ciucas Mountain description found on events.html was taken from [uncover-romania.com](https://www.uncover-romania.com/attractions/nature/ciucas-mountains/)
+    - The Fagaras Mountains description found on events.html page was taken from[panacomp.net](https://www.panacomp.net/fagaras-mountains/)
+    - The Caraiman Peak description found on events.html page was taken from [peakvisor.com](https://peakvisor.com/peak/caraiman.html)
 
 -   ### Media
     - The .gif image associated to "Improves Brain Health" element was taken from [tenor.com](https://tenor.com/view/mental-health-matters-your-mind-matters-brain-take-care-of-yourself-love-yourself-gif-18568638)
