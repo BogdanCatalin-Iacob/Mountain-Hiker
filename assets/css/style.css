@@ -202,6 +202,29 @@ header {
   font-size: 4rem;
 }
 
+.hero-quote a{
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  background-color: #e4572e;
+  color: #fffafa;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #66ff00;
+  color: #000;
+  cursor: pointer;
+}
+
+
 /*---------------------------------------------------- benefits ------*/
 #benefits-heading {
   margin-top: 2em;
