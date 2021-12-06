@@ -531,7 +531,7 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-#event-details {
+.event-details {
   width: 40%;
   margin-left: 1.2em;
 }
@@ -547,11 +547,11 @@ input[type=submit]:hover {
   border-radius: 10px;
 }
 
-#booking-image {
+.booking-image {
   position: relative;
 }
 
-#image-text {
+.image-text {
   position: absolute;
   padding: 0 2em;
   bottom: 8px;
