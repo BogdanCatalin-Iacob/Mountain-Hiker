@@ -253,6 +253,7 @@ The project was started by navigating to the [template](https://github.com/Code-
     - The Ciucas Mountain description found on events.html was taken from [uncover-romania.com](https://www.uncover-romania.com/attractions/nature/ciucas-mountains/)
     - The Fagaras Mountains description found on events.html page was taken from[panacomp.net](https://www.panacomp.net/fagaras-mountains/)
     - The Caraiman Peak description found on events.html page was taken from [peakvisor.com](https://peakvisor.com/peak/caraiman.html)
+    - The Cadair Idris description found on events.html page was taken from [visitwales.com](https://www.visitwales.com/things-do/adventure-and-activities/walking/guide-to-walking-up-cader-idris)
 
 -   ### Media
     - The .gif image associated to "Improves Brain Health" element was taken from [tenor.com](https://tenor.com/view/mental-health-matters-your-mind-matters-brain-take-care-of-yourself-love-yourself-gif-18568638)
