@@ -159,7 +159,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README.
 * [Favicon](https://favicon.io/)
-    * This was used to generate the icon on browser's tab
+    * This was used to generate the icon on browser's tab.
 ***
 
 ## Testing
