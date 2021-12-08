@@ -79,7 +79,7 @@ The purpose of this is to fulfill user story:
 > As a First Time user, I want to view the website and content clearly on my mobile device.
 
 All pages will contain a Footer Element with Contact Information, and Social Media Icons. The icons used will be
-from font-awesome. These are referenced below in the Frameworks-Libraries-and-Programs-Used section of this document. 
+from font-awesome. These are referenced below in the Technologies section of this document. 
 The aim of the Footer elements are to fulfill user stories:
 > As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.<br>
 > As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
@@ -120,7 +120,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 ## Features
  
 -   ### Existing Features
-    - FIND AN EVENT button on the index.html page opens up the events.html page.
+    - FIND EVENT button on the index.html page opens up the events.html page.
     - Modal form pop-up when Event is selected on events.html
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
 
@@ -158,6 +158,8 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     * This was used to generate gradient animation of the body.
 * [Techsini](http://techsini.com/multi-mockup/index.php)
     * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README.
+* [Favicon](https://favicon.io/)
+    * This was used to generate the icon on browser's tab
 ***
 
 ## Testing
@@ -240,7 +242,7 @@ The project was started by navigating to the [template](https://github.com/Code-
 ***
 ## Credits
 -   ### Code
-        - The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
+    - The code for hero-image animation was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/?child=last)
     -   The code to style photo elements on Gallery.html page was taken from [codeinstitute.net](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/?child=first)
     -   The code for gradient background animation was taken from [gradient-animator](https://www.gradient-animator.com/)
     -   The code for mobile nav menu was taken from [codepen](https://codepen.io/shieldsma91/pen/zLpbLX)
