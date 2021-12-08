@@ -265,13 +265,13 @@ header {
 /* button on the index.html page with link to events.html page */
 .btn {
   display: block;
-  width: 15vw;
+  width: 6em;
   background-color: #e4572e;
   color: #fffafa;
   text-transform: uppercase;
-  padding: 10px;
-  margin: 20px auto;
-  font-size: 2rem;
+  padding: 1em;
+  margin: 1em auto;
+  font-size: 1.7rem;
   font-weight: bold;
   border-radius: 20px;
 }
@@ -755,7 +755,7 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
-  }
+  
   .contact {
     display: flex;
     flex-direction: column;
