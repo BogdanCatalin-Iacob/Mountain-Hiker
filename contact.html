@@ -14,61 +14,70 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-container">
-            <a href="index.html" aria-label="Go to home page" class="logo">
-                <p><i class="fas fa-hiking fa-4x"></i> Mountain Hiker</p>
-            </a>
+    <div class="content">
 
-            <nav>
-                <div id="menu-toggle">
-                    <input type="checkbox"/>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="nav">
-                        <li>
-                            <a href="index.html" aria-label="Go to home page">Home</a>
-                        </li>
-                        <li>
-                            <a href="events.html" aria-label="Go to home page">Events</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" aria-label="Go to gallery page">Gallery</a>
-                        </li>
-                        <li>
-                            <a class="active" href="contact.html" aria-label="Go to contact page">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <section id="contact-form">
-        <div class="form-container">
-            <form>
-                <h2>Let's get you signed up!</h2>
+        <!-- Header start -->
+        <header>
+            <div class="header-container">
+                <a href="index.html" aria-label="Go to home page" class="logo">
+                    <p><i class="fas fa-hiking fa-4x"></i> Mountain Hiker</p>
+                </a>
 
-                <label for="fname">First Name</label>
-                <input type="text" class="text-input" id="fname" name="first_name" required>
+                <nav>
+                    <div id="menu-toggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="nav">
+                            <li>
+                                <a href="index.html" aria-label="Go to home page">Home</a>
+                            </li>
+                            <li>
+                                <a href="events.html" aria-label="Go to home page">Events</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" aria-label="Go to gallery page">Gallery</a>
+                            </li>
+                            <li>
+                                <a class="active" href="contact.html" aria-label="Go to contact page">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Header start -->
 
-                <label for="lname">Last Name</label>
-                <input type="text" class="text-input" id="lname" name="last_name" required>
+        <!-- Contact start -->
+        <section id="contact-form">
+            <div class="form-container">
+                <form>
+                    <h2>Let's get you signed up!</h2>
 
-                <label for="email">Email Address</label>
-                <input type="email" class="text-input" id="email" name="email_address" required>
+                    <label for="fname">First Name</label>
+                    <input type="text" class="text-input" id="fname" name="first_name" required>
 
-                <label for="message">Message</label>
-                <textarea class="message" id="message" name="message" required placeholder="Let us know how we can help"></textarea>
+                    <label for="lname">Last Name</label>
+                    <input type="text" class="text-input" id="lname" name="last_name" required>
 
-                <label for="newsletter">Subscribe to our newsletter</label>
-                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
-                <input type="submit" value="Submit">
-            </form>
-          
-        </div>
-    </section>
+                    <label for="email">Email Address</label>
+                    <input type="email" class="text-input" id="email" name="email_address" required>
 
+                    <label for="message">Message</label>
+                    <textarea class="message" id="message" name="message" required
+                        placeholder="Let us know how we can help"></textarea>
+
+                    <label for="newsletter">Subscribe to our newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <!-- Contact end-->
+    </div><!-- .content -->
+
+    <!-- Footer start -->
     <footer>
         <div>
             <h2>Get in Touch</h2>
@@ -130,7 +139,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- Footer end -->
 </body>
 
 </html>
