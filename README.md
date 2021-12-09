@@ -12,7 +12,6 @@
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
     * [Limitations](#Limitations)
-* [Limitations](#Limitations)
 * [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
@@ -20,9 +19,7 @@
 * [Testing](#Testing)
     * [Test Strategy](#Test-Strategy)
       * [Summary](#Summary)
-      * [High Level Test Cases](#High-Level-Test-Cases)
     * [Test Results](#Test-Results)
-    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [Project Creation](#Project-Creation)
     * [GitHub Pages](#Using-Github-Pages)
@@ -39,7 +36,8 @@
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
 It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
 
-The live website can be found [here]().
+The live website can be found [here](https://bogdancatalin-iacob.github.io/mountain-hiker/).
+![Website Mock Up](/assets/images/mountain-hiker-mock-up/mountain-hiker-mockup.JPG)
 
 ## User Experience (UX)
 
@@ -108,11 +106,13 @@ The purpose of this Page is to fulfill user stories:
 
     -   #### Wireframes
 Home Page<br>
-![Home Page Wireframe]()<br>
+![Home Page Wireframe](/assets/images/Wireframes/home-page.png)<br>
+Events Page<br>
+![Events Page Wireframe](/assets/images/Wireframes/Events-page.png)<br>
 Gallery Page<br>
-![Gallery Page Wireframe]()<br>
+![Gallery Page Wireframe](/assets/images/Wireframes/Gallery-page.png)<br>
 Contact Page<br>
-![Contact Page Wireframe]()<br>
+![Contact Page Wireframe](/assets/images/Wireframes/Contact-page.png)<br>
 
 -   ### Limitations
 Due to no JavaScript functionality the contact forms and modal forms will not store data or send email requests.
@@ -123,6 +123,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     - FIND EVENT button on the index.html page opens up the events.html page.
     - Modal form pop-up when Event is selected on events.html
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
+    - Error page  to redirect  the user back to home page
 
 -   ### Features Left to Implement
     - Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
@@ -172,7 +173,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 
         - As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
-        - No elements should overlap another container div. All elements should remain on the screen at all sizes above 475px.
+        - No elements should overlap another container div. All elements should remain on the screen at all sizes above 475px except last review on index.html page which will be hidden for all screens smaller than 1024px.
 
         - All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
 
@@ -182,33 +183,53 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 
         - Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
 
-        - The live Project can be found [here]().</br>
-
-    -   #### High Level Test Cases 
---->![Test Cases]()
-
+        - The live Project can be found [here](https://bogdancatalin-iacob.github.io/mountain-hiker/).</br>
 
     -   ### Test Results
---->![Results]()<br>
---->Testing results can be found [here]()<br>
-Please note these results are a .xlsx file and will require excel, google docs or compatiable program to open the file.<br>
+
     - All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
     - CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
-    - Website was tested by running locally and tested on the deployed version. No differences found.
+    - Website was tested by running locally and tested on the deployed version on three different browsers:
+        - Google Chrome: no differences found
+        - Opera: no differences found
+        - Mozilla Firefox: 1 difference found- the text on button on the index.html page appears on two lines instead of one<br>
+    - Test header's logo to redirect to index.html (on all pages) - worked as expected on all tested browsers
+    - index.html
+        - Test index.html button (on hero-section image) to open events.html page in the same tab - worked as expected on all tested browsers
+        - Test all elements in review section on index.html page is displayed on screens bigger than 1023px - worked as expected on all tested browsers 
+        - Test only first two elements in review section are displayed on screens smaller than 1023px and last element is hidden - worked as expected on all tested browsers
+        - Test only the text elements of first two reviews on index.html are displayed on screens smaller than 475px and their images are hidden - worked as expected on all tested browsers
 
-* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure organisation information was displayed on the Home Page.
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure organisation information was displayed on the Home Page.<br>
+
 * As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
-* As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
-* As a First Time user, I want to find ways to follow the organisation on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+    - Test nav links (on all pages) direct to the correct html pages as per their names - worked as expected on all tested browsers<br>
 
-* As a Returning user, I want to enroll online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal was functioning on the Events page.
+* As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
+    - Test mobile nav menu is displayed correctly with all elements visible - worked as expected on all tested browsers
+    - Test mobile nav menu disappears after a page selection or when X is clicked / pressed - worked as expected on all tested browsers<br>
+
+* As a First Time user, I want to find ways to follow the organisation on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
+    - Test all external links in the footer of all pages to open in a new tab - worked as expected on all tested browsers   <br>
+
+* As a Returning user, I want to enroll online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal was functioning on the Events page for each event.
+    - Click / touch each event individually to ensure they open a modal - worked as expected on all tested browsers<br>
+    - Modal inputs "First Name", "Last Name", "Email" tested one by one to ensure the form cannot be submited with empty fields or wrong input type for email - worked as expected on all tested browsers
+    - Modal input "Message" is not mandatory for booking an event therefore can be submitted empty - worked as expected on all tested browsers<br>
+
 * As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
+    - Form inputs on contact.html page were tested one by one to ensure the form cannot be submitted empty, with any of the fields empty or wrong input type for email- worked as expected on all tested browsers
+    - Test contact informations in the page footer to be visible and displayed on all screen sizes - worked as expected on all tested browsers<br>
 
 * As a Frequent user, I want to check to see if there are any new upcoming events. - Testing was done to ensure upcoming events were displayed on the Events Page.
-* As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities. - Testing was performed to ensure a gallery had been added with photos from the organisation activities.
-* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the organisation newsletter.
+    - Test all elements on events.html page are correctly aligned on all screen sizes -worked as expected on all tested browsers<br>
 
-    - ### Issues and Resolutions to issues found during testing
+* As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities. - Testing was performed to ensure a gallery had been added with photos from the organisation activities.
+    - Test photos to be displayed on 3 columns for screens bigger than 1023px - worked as expected on all tested browsers
+    - Test photos to be displayed on 2 columns for screens bigger than 475px - worked as expected on all tested browsers
+    - Test photos to be displayed on 1 columns for screens smaller than 475px - worked as expected on all tested browsers
+
+* As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the organisation newsletter.
 
 
 ***
@@ -227,7 +248,7 @@ The project was started by navigating to the [template](https://github.com/Code-
 1. Navigate to the GitHub [Repository:](https://github.com/BogdanCatalin-Iacob/mountain-hiker)
 1. Click the 'Settings' Tab.
 1. Scroll Down to the Git Hub Pages Heading.
-1. Select 'Master Branch' as the source.
+1. Select 'main' as the source.
 1. Click the Save button.
 1. Click on the link to go to the live deployed page.
 
