@@ -264,6 +264,8 @@ The project was started by navigating to the [template](https://github.com/Code-
     - The .gif image associated to "Strengthen Bones" element was taken from [besthealthphysio.ca](https://besthealthphysio.ca/services/osteoporosis/strong-bone/)
     - The images found in Gallery.html are taken from my personal archive and they are shot during my travels
     - The image found on events.html is taken from my personal archive and it is shot during my travels
+    - The image on error-page-404.html  is taken from [clip art](http://clipart-library.com/clip-art/mountain-climber-silhouette-13.htm)
+    - The compass image on error-page-404.html is taken from [pngaaa.com](https://www.pngaaa.com/detail/11833)
 
 -   ### Acknowledgements
     - I'd like to thank my mentor Daisy McGirr for her guidance throughout my project.<br>
