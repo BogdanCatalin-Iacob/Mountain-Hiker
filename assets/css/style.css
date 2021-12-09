@@ -600,8 +600,8 @@ input[type=submit]:hover {
   margin-left: 1.2em;
 }
 
-#event-details p:nth-child(3) {
-  margin-top: 10px;
+.event-details p:nth-child(2) {
+  margin-bottom: 10px;
 }
 
 .event-container img {
@@ -901,20 +901,21 @@ input[type=submit]:hover {
     flex-direction: column-reverse;
   }
 
-  #event-details {
-    width: 80%;
+  .event-details {
+    display: block;
+    width: 90%;
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-  #event-details p:nth-child(3) {
-    margin-top: 10px;
   }
 
   .event-container img {
     width: 100%;
     box-shadow: 5px 5px 25px rgba(60, 60, 60, 0.6);
     border-radius: 10px;
+  }
+
+  .event-details details{
+    margin-bottom: 20px;
   }
 
   #image-text {
