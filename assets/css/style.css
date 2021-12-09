@@ -673,6 +673,56 @@ input[type=submit]:hover {
 
 /* modal content -- end*/
 
+/*---------------------------------------------------- Error page ------*/
+
+.error-page-content{
+  display: flex;
+  flex-direction: column;
+}
+.error-page-content h1{
+  font-size: 11rem;
+  margin: 0 auto;
+}
+
+#compass{
+  width: 0.8em;
+}
+
+.error-box{
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+.error-message p:nth-child(2){
+  margin-bottom: 1em;
+}
+
+.error-message a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-left: 10%;
+  border: 1px solid #e4572e;
+  border-radius: 20px;
+  background-color: #e4572e;
+  color: #fffafa;
+  padding: 0.5em;
+}
+
+.error-message a:hover{
+  background-color: #66ff00;
+  color: #000;
+  cursor: pointer;
+}
+
+#error-image-box img{
+  width:30vw;
+}
+
 
 /*---------------------------------------------------- Media queries ------*/
 
