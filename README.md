@@ -20,6 +20,7 @@
     * [Test Strategy](#Test-Strategy)
       * [Summary](#Summary)
     * [Test Results](#Test-Results)
+    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
 * [Deployment](#Deployment)
     * [Project Creation](#Project-Creation)
     * [GitHub Pages](#Using-Github-Pages)
@@ -123,7 +124,9 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     - FIND EVENT button on the index.html page opens up the events.html page.
     - Modal form pop-up when Event is selected on events.html
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
-    - Error page  to redirect  the user back to home page
+    - Error page  to redirect  the user back to home page 
+    - Mobile nav menu
+    - Links to social networks
 
 -   ### Features Left to Implement
     - Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
@@ -173,7 +176,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 
         - As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
-        - No elements should overlap another container div. All elements should remain on the screen at all sizes above 475px except last review on index.html page which will be hidden for all screens smaller than 1024px.
+        - No elements should overlap another container div. All elements should remain on the screen at all sizes above 320px except last (third) review on index.html page which will be hidden for all screens smaller than 1024px width and reviews profile photos which will be hidden on screens under 475px width.
 
         - All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html. 
 
@@ -194,42 +197,57 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
         - Opera: no differences found
         - Mozilla Firefox: 1 difference found- the text on button on the index.html page appears on two lines instead of one<br>
     - Test header's logo to redirect to index.html (on all pages) - worked as expected on all tested browsers
-    - index.html
-        - Test index.html button (on hero-section image) to open events.html page in the same tab - worked as expected on all tested browsers
-        - Test all elements in review section on index.html page is displayed on screens bigger than 1023px - worked as expected on all tested browsers 
-        - Test only first two elements in review section are displayed on screens smaller than 1023px and last element is hidden - worked as expected on all tested browsers
+
+    - index.html page
+        - Test index.html button "FIND EVENT" (on hero-section image) to open events.html page in the same tab - worked as expected on all tested browsers
+        - Test all elements in review section on index.html page is displayed on screens bigger than or equal to 1024px - worked as expected on all tested browsers 
+        - Test only first two elements in review section are displayed on screens smaller than 1024px and last element is hidden - worked as expected on all tested browsers
         - Test only the text elements of first two reviews on index.html are displayed on screens smaller than 475px and their images are hidden - worked as expected on all tested browsers
 
-* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure organisation information was displayed on the Home Page.<br>
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the organisation. - Testing was performed to ensure organisation information was displayed on the Home Page.
+- This helps the users to easily find the main purpose of the site and benefits they can get from the activities of the organisation.<br>
 
 * As a First Time user, I want to be able to easily navigate throughout the site to find content. - Testing was performed on all Navigation links to ensure users can easily navigate the Website.
-    - Test nav links (on all pages) direct to the correct html pages as per their names - worked as expected on all tested browsers<br>
+    - Test all nav elements are easy to find and clear on all pages - worked as expected on all tested browsers
+    - Test nav links (on all pages) direct to the correct html pages as per their names - worked as expected on all tested browsers
+-This gives to users the possibility to swap between pages with ease and no restrictions.
+    <br>
 
 * As a First Time user, I want to view the website and content clearly on my mobile device. - Testing was performed to ensure the Website was responsive on all devices.
     - Test mobile nav menu is displayed correctly with all elements visible - worked as expected on all tested browsers
-    - Test mobile nav menu disappears after a page selection or when X is clicked / pressed - worked as expected on all tested browsers<br>
+    - Test mobile nav menu disappears after a page selection or when X is clicked / pressed - worked as expected on all tested browsers
+- This ensures the main content shows on the screens with no overlapping or covering elements on top and gives to users the opportunity to read the content.<br>
 
 * As a First Time user, I want to find ways to follow the organisation on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
-    - Test all external links in the footer of all pages to open in a new tab - worked as expected on all tested browsers   <br>
+    - Test all external links in the footer of all pages to open in a new tab - worked as expected on all tested browsers   
+- This gives to users the possibility visit the organisation social media pages without ending the session on the website<br>
 
 * As a Returning user, I want to enroll online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal was functioning on the Events page for each event.
     - Click / touch each event individually to ensure they open a modal - worked as expected on all tested browsers<br>
     - Modal inputs "First Name", "Last Name", "Email" tested one by one to ensure the form cannot be submited with empty fields or wrong input type for email - worked as expected on all tested browsers
-    - Modal input "Message" is not mandatory for booking an event therefore can be submitted empty - worked as expected on all tested browsers<br>
+    - Modal input "Message" is not mandatory for booking an event therefore can be submitted empty - worked as expected on all tested browsers
+- This ensure the users can book a place on the event they choose in advance of time and add any requirements if they have.<br>
 
 * As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
     - Form inputs on contact.html page were tested one by one to ensure the form cannot be submitted empty, with any of the fields empty or wrong input type for email- worked as expected on all tested browsers
-    - Test contact informations in the page footer to be visible and displayed on all screen sizes - worked as expected on all tested browsers<br>
+    - Test contact informations in the page footer to be visible and displayed on all screen sizes - worked as expected on all tested browsers
+-This give to users the possibility to get more informations as needed <br>
 
 * As a Frequent user, I want to check to see if there are any new upcoming events. - Testing was done to ensure upcoming events were displayed on the Events Page.
-    - Test all elements on events.html page are correctly aligned on all screen sizes -worked as expected on all tested browsers<br>
+    - Test all elements on events.html page are correctly aligned on all screen sizes -worked as expected on all tested browsers
+- This gives to users a clear view of the upcoming events with details about the location<br>
 
 * As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities. - Testing was performed to ensure a gallery had been added with photos from the organisation activities.
-    - Test photos to be displayed on 3 columns for screens bigger than 1023px - worked as expected on all tested browsers
-    - Test photos to be displayed on 2 columns for screens bigger than 475px - worked as expected on all tested browsers
-    - Test photos to be displayed on 1 columns for screens smaller than 475px - worked as expected on all tested browsers
+    - Test photos to be displayed on 3 columns for screens bigger than or equal to 1024px width - worked as expected on all tested browsers
+    - Test photos to be displayed on 2 columns for screens bigger than 475px width but smaller than 1024px width - worked as expected on all tested browsers
+    - Test photos to be displayed on 1 columns for screens smaller than 475px width - worked as expected on all tested browsers
+- This gives to users the opportunity to see if other people enjoy the activities or trips.<br>
 
 * As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the organisation newsletter.
+- This will help users to stay updated with the latest news / events that may be of interest.<br> 
+
+### Issues and Resolutions to issues found during testing
+- Hero image on index.html page was oversized on desktop display. Also the quote  on hero image was larger with added margin -> the issue was a style conflict with gallery page therefore to the main section of gallery.html was added the id="photos-section"
 
 
 ***
