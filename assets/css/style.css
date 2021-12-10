@@ -248,7 +248,7 @@ header {
 }
 
 .hero-quote {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: relative;
   top: 20vh;
   text-align: center;
@@ -259,7 +259,7 @@ header {
 }
 
 .hero-quote em {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .hero-quote a {
