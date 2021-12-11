@@ -131,13 +131,26 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 ## Features
  
 -   ### Existing Features
-    - FIND EVENT button on the index.html page opens up the events.html page.
-    - Modal form pop-up when Event is selected on events.html
-    - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
-    - Error page (404) to redirect  the user back to home page 
-    - Mobile nav menu
-    - Links to social networks
-    - Icon in the browser tab
+    - FIND EVENT button on the index.html page opens up the events.html page.<br>
+    ![find-event-button](/assets/images/Features-images/home-page-button.png)<br>
+
+    - Modal form pop-up when Event is selected on events.html (looks the same as contact form with exception for Message field which is not required to be filled in on this modal)<br>
+    ![modal-form](/assets/images/Features-images/modal-form.png)<br>
+
+    - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.<br>
+    ![contact-form](/assets/images/Features-images/contact-form.png)<br>
+
+    - Error page (404) to redirect  the user back to home page<br>
+    ![error-page](/assets/images/Features-images/404-error-page.png)<br>
+
+    - Mobile nav menu<br>
+    ![mobile-nav-menu](/assets/images/Features-images/mobile-nav-menu.png)<br>
+
+    - Links to social networks<br>
+    ![social-media-links](/assets/images/Features-images/links-to-social-networks.png)<br>
+
+    - Icon in the browser tab<br>
+    ![browser-tab-icon](/assets/images/Features-images/browser-icon.png)<br>
 
 -   ### Features Left to Implement
     - Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
@@ -202,7 +215,12 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     -   ### Test Results
 
     - All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+    ![html-validation](/assets/images/HTML-CSS-Validators/html-validation-1.JPG)<br>
+    ![html-validation](/assets/images/HTML-CSS-Validators/html-validation-2.JPG)<br>
+
     - CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+    ![css-validation](/assets/images/HTML-CSS-Validators/css-validation.JPG)<br>
+
     - Website was tested by running locally and tested on the deployed version on three different browsers:
         - Google Chrome: no differences found
         - Opera: no differences found
