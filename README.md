@@ -338,6 +338,7 @@ The project was started by navigating to the [template](https://github.com/Code-
     -   The code for gradient background animation was taken from [gradient-animator](https://www.gradient-animator.com/)
     -   The code for mobile nav menu was taken from [codepen](https://codepen.io/shieldsma91/pen/zLpbLX)
     -   The code for modal on events.html was taken from [codepen](https://codepen.io/timothylong/pen/HhAer)
+    -   The code to make sticky footer was taken from [css-tricks.com](https://css-tricks.com/couple-takes-sticky-footer/)
 
 -   ### Content
     - The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)

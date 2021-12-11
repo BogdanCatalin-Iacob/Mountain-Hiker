@@ -8,14 +8,14 @@
   padding: 0;
 }
 
-/* help to position footer stick to the bottom of the page */
+/* credit: help to position footer stick to the bottom of the page - https://css-tricks.com/couple-takes-sticky-footer/*/
 html,
 body {
   height: 100%;
   margin: 0;
 }
 
-/* created to help footer stick to the bottom of the page */
+/* credit: created to help footer stick to the bottom of the page - https://css-tricks.com/couple-takes-sticky-footer/*/
 .content {
   flex: 1 0 auto;
 }
@@ -173,7 +173,7 @@ header {
   color: #66ff00;
 }
 
-/* checkbox behind the hamburger / X menu icon used for small display to make the nav menu appear / disappear on the screen when hamburger / X icon is triggered */
+/* credit: checkbox behind the hamburger / X menu icon used for small display to make the nav menu appear / disappear on the screen when hamburger / X icon is triggered - https://codepen.io/shieldsma91/pen/zLpbLX*/
 #menu-toggle input[type=checkbox] {
   display: none;
 }
@@ -293,6 +293,7 @@ header {
 .btn a:hover {
   color: #000;
 }
+/* button - end */
 
 
 /*---------------------------------------------------- benefits ------*/
@@ -788,7 +789,7 @@ input[type=submit]:hover {
     font-size: 2rem;
   }
 
-  /*hide the images of reviewrs on index.html page for mobile displays*/
+  /*hide the images of reviewers on index.html page for mobile displays*/
   .circle {
     display: none;
   }
