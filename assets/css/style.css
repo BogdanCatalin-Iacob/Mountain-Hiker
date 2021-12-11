@@ -273,8 +273,8 @@ header {
   background-color: #e4572e;
   color: #fffafa;
   text-transform: uppercase;
-  padding: 1em;
-  margin: 1em auto;
+  padding: 0.5em;
+  margin: 0.5em auto;
   font-size: 1.7rem;
   font-weight: bold;
   border-radius: 20px;
