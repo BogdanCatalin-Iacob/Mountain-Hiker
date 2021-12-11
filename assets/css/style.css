@@ -759,6 +759,16 @@ input[type=submit]:hover {
   #photos {
     column-count: 2;
   }
+
+  .error-box{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #error-image-box img {
+    width: 60vw;
+    margin-top: 30px;
+  }
 }
 
 /*---------------------------------------------------------- Mobile screen size------*/
