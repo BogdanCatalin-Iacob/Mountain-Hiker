@@ -79,7 +79,7 @@ The purpose of this is to fulfill user story:
 
 All pages will contain a Footer Element with Contact Information, and Social Media Icons. The icons used will be
 from font-awesome. These are referenced below in the Technologies section of this document. 
-The aim of the Footer elements are to fulfill user stories:
+The aim of the Footer elements is to fulfill user stories:
 > As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.<br>
 > As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
@@ -106,7 +106,7 @@ Icon in the browser tab made with Favicon will be the same for all the pages.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are: "Kelly Green": #00c201 , "Snow": #fffafa , "Flame": #e4572e , "Sky Blue Crayola": #7ee8fa with shades of "White": #fff and "Black": #000. 
+        -   The main colours used are: "Kelly Green": #00c201, "Snow": #fffafa, "Flame": #e4572e, "Sky Blue Crayola": #7ee8fa with shades of "White": #fff and "Black": #000. 
 
     -   #### Typography
         -   The Spectral font is the main font used throughout the whole website with Helvetica as the fallback font in case for any reason the font isn't being imported into the site correctly.
@@ -140,7 +140,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.<br>
     ![contact-form](/assets/images/Features-images/contact-form.png)<br>
 
-    - Error page (404) to redirect  the user back to home page<br>
+    - Error page (404) to redirect the user back to home page<br>
     ![error-page](/assets/images/Features-images/404-error-page.png)<br>
 
     - Mobile nav menu<br>
@@ -249,7 +249,7 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 
 * As a First Time user, I want to find ways to follow the organisation on different social media platforms. - Testing was performed to ensure Social Media links had been added to the Website.
     - Test all external links in the footer of all pages to open in a new tab - worked as expected on all tested browsers   
-- This gives to users the possibility visit the organisation social media pages without ending the session on the website<br>
+- This gives to users the possibility to visit the organisation social media pages without ending the session on the website<br>
 
 * As a Returning user, I want to enroll online in advance of events so that I am garanteed entry. - Testing was performed to ensure the Booking Modal was functioning on the Events page for each event.
     - Click / touch each event individually to ensure they open a modal - worked as expected on all tested browsers<br>
@@ -259,8 +259,8 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 
 * As a Returning user, I want to contact the organisation so I can request more information. - Testing was done to ensure there was a contact form on the Website and that the Footer also contained contact information.
     - Form inputs on contact.html page were tested one by one to ensure the form cannot be submitted empty, with any of the fields empty or wrong input type for email- worked as expected on all tested browsers
-    - Test contact informations in the page footer to be visible and displayed on all screen sizes - worked as expected on all tested browsers
--This give to users the possibility to get more informations as needed <br>
+    - Test contact information in the page footer to be visible and displayed on all screen sizes - worked as expected on all tested browsers
+-This gives to users the possibility to get more informations as needed <br>
 
 * As a Frequent user, I want to check to see if there are any new upcoming events. - Testing was done to ensure upcoming events were displayed on the Events Page.
     - Test all elements on events.html page are correctly aligned on all screen sizes -worked as expected on all tested browsers
@@ -269,21 +269,21 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 * As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities. - Testing was performed to ensure a gallery had been added with photos from the organisation activities.
     - Test photos to be displayed on 3 columns for screens bigger than or equal to 1024px width - worked as expected on all tested browsers
     - Test photos to be displayed on 2 columns for screens bigger than 475px width but smaller than 1024px width - worked as expected on all tested browsers
-    - Test photos to be displayed on 1 columns for screens smaller than 475px width - worked as expected on all tested browsers
+    - Test photos to be displayed on 1 column for screens smaller than 475px width - worked as expected on all tested browsers
 - This gives to users the opportunity to see if other people enjoy the activities or trips.<br>
 
 * As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Testing was performed to validate a checkbox had been added to the contact form allowing users to sign up for the organisation newsletter.
 - This will help users to stay updated with the latest news / events that may be of interest.<br> 
 
 ### Issues and Resolutions to issues found during testing
-- Hero image on index.html page was oversized on desktop display. Also the quote  on hero image was larger with added margin -> the issue was a style conflict with gallery page therefore to the main section of gallery.html was added the id="photos-section"
+- Hero image on index.html page was oversized on desktop display. Also the quote on hero image was larger with added margin -> the issue was a style conflict with gallery page therefore to the main section of gallery.html was added the id="photos-section"
 
 
 ***
 ## Deployment
 
 -   ### Project Creation
-The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input mountain-hiker and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/BogdanCatalin-Iacob/mountain-hiker). I then clicked the Gitpod button  to open the project in Gitpod.
+The project was started by navigating to the [template](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking 'Use this template'. Under Repository name I input mountain-hiker and checked the Include all branches checkbox. I then navigated to the new [repository](https://github.com/BogdanCatalin-Iacob/mountain-hiker). I then clicked the Gitpod button to open the project in Gitpod.
 
  The following commands were used throughout the project:
 
