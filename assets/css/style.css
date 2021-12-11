@@ -593,6 +593,7 @@ input[type=submit]:hover {
 #events-heading h1 {
   font-size: 2rem;
   text-align: center;
+  margin: 1.2em;
 }
 
 .event-details {
@@ -683,6 +684,7 @@ input[type=submit]:hover {
 .error-page-content h1{
   font-size: 11rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 #compass{
