@@ -32,7 +32,6 @@
     * [Acknowledgements](#Acknowledgements)
     * [Comments](#Comments)
 
-
 ## Purpose
 This Website was created for the sole purpose of completing the first Milestone Project for the Code Institute's Full Stack Developer course. 
 It was built using the knowledge gained from the HTML, CSS and User Centric Design modules. A full list of technologies used can be found in the technologies section of this document.
@@ -83,7 +82,6 @@ The aim of the Footer elements is to fulfill user stories:
 > As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.<br>
 > As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-
 The Gallery Page will contain several photos from various activities the organisation has engaged in.
 The purpose of this gallery is to fulfill user story:
 > As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities.
@@ -131,25 +129,51 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 ## Features
  
 -   ### Existing Features
-    - FIND EVENT button on the index.html page opens up the events.html page.<br>
-    ![find-event-button](/assets/images/Features-images/home-page-button.png)<br>
+- Benefits section to fulfill user story:
+    * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        - Home page shows to users benefits of joining activities<br>
+    ![website-purpose](/assets/images/Features-images/website-purpose.png)<br>
 
+- Events page to fulfill user stories:
+    * As a Returning Visitor, I want to find information about events.
+    * As a Frequent User, I want to check to see if there are any newly added events.
+        - FIND EVENT button on the index.html page opens up the events.html page.
+        - Events page gives to users a selection of events<br>
+    ![find-event-button](/assets/images/Features-images/home-page-button.png)<br>
+    ![events-page](/assets/images/Features-images/upcoming-events.png)<br>
+
+- Navigation menu for desktop and mobile to fulfill user story:
+    * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        - Navigation menu created in the header to navigate with ease throughout the website<br>
+    ![nav-menu](/assets/images/Features-images/nav-menu.png)<br>
+    ![mobile-nav-menu](/assets/images/Features-images/mobile-nav-menu.png)<br>
+
+- Testimonial section and social media links to fulfill user stories:
+    * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    * As a Returning Visitor, I want to find community links.
+        - Testimonial section added to give users a social proof about the oragnisation and social media links in the footer of all the pages<br>
+    ![testimonials](/assets/images/Features-images/testimonials.png)<br>
+    ![social-media-links](/assets/images/Features-images/links-to-social-networks.png)<br>
+
+- Contact page and contact information in all pages footer to fulfill user stories:
+    * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    * As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.<br>
+    ![contact-form](/assets/images/Features-images/contact-form.png)<br>
+
+- Gallery page to fulfill user story:
+    * As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities.
+        - A page containing photos from different events was created for a better understanding of activities<br>
+    ![gallery](/assets/images/Features-images/photos-gallery.png)<br>
+
+- Modal form for booking a place in any event:
     - Modal form pop-up when Event is selected on events.html (looks the same as contact form with exception for Message field which is not required to be filled in on this modal)<br>
     ![modal-form](/assets/images/Features-images/modal-form.png)<br>
 
-    - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.<br>
-    ![contact-form](/assets/images/Features-images/contact-form.png)<br>
-
-    - Error page (404) to redirect the user back to home page<br>
+- Error page (404) to redirect the user back to home page<br>
     ![error-page](/assets/images/Features-images/404-error-page.png)<br>
 
-    - Mobile nav menu<br>
-    ![mobile-nav-menu](/assets/images/Features-images/mobile-nav-menu.png)<br>
-
-    - Links to social networks<br>
-    ![social-media-links](/assets/images/Features-images/links-to-social-networks.png)<br>
-
-    - Icon in the browser tab<br>
+- Icon in the browser tab<br>
     ![browser-tab-icon](/assets/images/Features-images/browser-icon.png)<br>
 
 -   ### Features Left to Implement
@@ -278,7 +302,6 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
 ### Issues and Resolutions to issues found during testing
 - Hero image on index.html page was oversized on desktop display. Also the quote on hero image was larger with added margin -> the issue was a style conflict with gallery page therefore to the main section of gallery.html was added the id="photos-section"
 
-
 ***
 ## Deployment
 
@@ -316,7 +339,6 @@ The project was started by navigating to the [template](https://github.com/Code-
     -   The code for mobile nav menu was taken from [codepen](https://codepen.io/shieldsma91/pen/zLpbLX)
     -   The code for modal on events.html was taken from [codepen](https://codepen.io/timothylong/pen/HhAer)
 
-    
 -   ### Content
     - The quote on the hero image was taken from [thewanderlustwithin.com](https://www.thewanderlustwithin.com/mountain-quotes/)
     - The benefits of hiking were taken from [trekfest.org.uk](https://www.trekfest.org.uk/blog/health-benefits-hiking/)
