@@ -85,7 +85,7 @@ The aim of the Footer elements are to fulfill user stories:
 
 
 The Gallery Page will contain several photos from various activities the organisation has engaged in.
-The purpose of these galleries are to fulfill user story:
+The purpose of this gallery is to fulfill user story:
 > As a Frequent user, I want to check to see if there are any new photos and media from the organisation activities.
 
 The Contact Page will contain a form that can be used to contact the organisation through the website. This will also contain a check 
@@ -93,6 +93,16 @@ box that will allow the user to sign up for the organisation newsletter in order
 The purpose of this Page is to fulfill user stories:
 > As a Returning user, I want to contact the organisation so I can request more information.<br>
 > As a Frequent user, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+The Events Page will contain several upcoming events for users to choose from.
+The purpose of these events is to fullfill user stories:
+> As a Frequent User, I want to check to see if there are any newly added events.
+
+The 404.html error page will appear in case the page users are looking for cannot be found. It has an error message to let users know something went wrong and a button linked to the home page index.html.
+> This let users know they are still on the same website but the page cannot be loaded and they save the option to go back to the home page.
+
+Icon in the browser tab made with Favicon will be the same for all the pages.
+> This let users know they are on the same website.
 
 -   ### Design
     -   #### Colour Scheme
@@ -124,9 +134,10 @@ Due to no JavaScript functionality the contact forms and modal forms will not st
     - FIND EVENT button on the index.html page opens up the events.html page.
     - Modal form pop-up when Event is selected on events.html
     - Contact Form - This can be completed on the contact.html page and used in order to contact the organisation with any queries users may have.
-    - Error page  to redirect  the user back to home page 
+    - Error page (404) to redirect  the user back to home page 
     - Mobile nav menu
     - Links to social networks
+    - Icon in the browser tab
 
 -   ### Features Left to Implement
     - Users would like to have a forum incorporated into the Website. This feature was not implemented as part of the initial release but will be addressed in a future.
